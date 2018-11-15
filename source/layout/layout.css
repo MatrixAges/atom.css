@@ -1,0 +1,16 @@
+/* atom-style css layout class */
+.border_box {
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+}
+
+.content_box {
+      box-sizing: content-box;
+      -moz-box-sizing: content-box;
+      -webkit-box-sizing: content-box;
+}
+
+.flex{
+      
+}
