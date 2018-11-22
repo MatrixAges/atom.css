@@ -1,16 +1,40 @@
 /* atom-style css layout class */
 .border_box {
       box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      -webkit-box-sizing: border-box;
 }
 
 .content_box {
       box-sizing: content-box;
-      -moz-box-sizing: content-box;
-      -webkit-box-sizing: content-box;
 }
 
-.flex{
+.flex {
+      display: flex;
+}
+
+.flex_wrap {
+      flex-wrap: wrap;
+}
+
+.flex_nowrap {
+      flex-wrap: nowrap;
+}
+
+.flex_wrap_reverse {
+      flex-wrap: wrap-reverse;
+}
+
+.justify_center {
+      justify-content: center;
+}
+
+.justify_start {
+      justify-content: flex-start;
+}
+
+.justify_end {
+      justify-content: flex-end;
+}
+
+.justify_between{
       
 }
