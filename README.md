@@ -3,10 +3,7 @@
 
 # <p align="center"> atom.css </p>
 
-<p align="center">Write Your Atom.css Like A Gentleman!</p>
-
-
-_<p align="center"> Only atom-style CSS elements </p>_
+<p align="center">_Write Your Atom.css Like A Gentleman!Only atom-style CSS elements!_</p>
 
 <p align="center"> atom.css is a atom-style css collection,and inspired by Organic Chemistry,the concept is build app more flexible and faster,to reduce overtime,I hope it can help.</p>
 
