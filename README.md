@@ -5,6 +5,11 @@
 
 <p align="center">Write Your Atom.css Like A Gentleman!</p>
 
+
+_<p align="center"> Only atom-style CSS elements </p>_
+
+<p align="center"> atom.css is a atom-style css collection,and inspired by Organic Chemistry,the concept is build app more flexible and faster,to reduce overtime,I hope it can help.</p>
+
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/join-welcome-brightgreen.svg" alt="attitude_img"></a>
   <a href="#"><img src="https://img.shields.io/badge/version-1.0-orange.svg" alt="version_img"></a>
@@ -13,10 +18,6 @@
   <a href="#"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
   <a href="#"><img src="https://img.shields.io/badge/update-weekly-lightgrey.svg" alt="Chat"></a>
 </p>
-
-_<p align="center"> Only atom-style CSS elements </p>_
-
-<p align="center"> atom.css is a atom-style css collection,and inspired by Organic Chemistry,the concept is build app more flexible and faster,to reduce overtime,I hope it can help.</p>
 
 ## Installation
 
