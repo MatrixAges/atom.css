@@ -1098,16 +1098,10 @@
 /*========value & modules========*/
 
 :host {
-      --color_main: #2E3033;
-      --color_sub: #8A9099;
+      --color_main: #000;
+      --color_sub: #333;
       --border_color_main: #E1E3E6;
       --bg_main: #fafafa;
 }
-
-.btn_main {}
-
-.btn_white {}
-
-.input_main {}
 
 /*========value & modules========*/
