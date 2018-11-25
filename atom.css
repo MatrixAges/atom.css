@@ -16,11 +16,11 @@
       display: flex;
 }
 
-.flex_column {
+.flex_row {
       flex-direction: row;
 }
 
-.flex_column_reverse {
+.flex_row_reverse {
       flex-direction: row-reverse;
 }
 
