@@ -1,15 +1,29 @@
 {
-      "name": "atom.css",
-      "version": "1.0.0",
-      "main": "atom.css",
-      "repository": {
-            "type": "git",
-            "url": "https://github.com/WalkShadow/atom.css.git"
-      },
-      "author": {
-            "name": "WalkShadow"
-      },
-      "homepage": "https://walkshadow.github.io/atom.css/",
-      "license": "MIT",
-      "style": "./atom.css"
+  "name": "atom.css",
+  "version": "1.0.0",
+  "description": "A atom-style library of CSS atomic elements. To build app faster and more flexible.",
+  "main": "none",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isVertical/atom.css.git"
+  },
+  "keywords": [
+    "css",
+	"atom.css",
+    "atom",
+    "html",
+    "react",
+    "js",
+    "vue",
+    "angular"
+  ],
+  "author": "V",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isVertical/atom.css/issues"
+  },
+  "homepage": "https://github.com/isVertical/atom.css#readme"
 }
