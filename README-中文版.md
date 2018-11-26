@@ -3,9 +3,11 @@
 
 # <p align="center"> atom.css </p>
 
-_<p align="center">像一个绅士一样写代码!Only atom-style CSS elements!</p>_
+_<p align="center">像风一样的男子一样快乐地写代码！只有CSS文件，不需要安装任何东西!</p>_
 
-<p align="center"> atom.css is a atom-style css collection,and inspired by Organic Chemistry,the concept is build app more flexible and faster,to reduce overtime,I hope it can help.</p>
+<p align="center"> atom.css 是一个原子化风格的CSS class集合。 </p>
+
+<p align="center"> 它的灵感来源于有机化学，它让开发者在构建Web应用时更加快速和灵活！ </p>
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/join-welcome-brightgreen.svg" alt="attitude_img"></a>
@@ -16,17 +18,17 @@ _<p align="center">像一个绅士一样写代码!Only atom-style CSS elements!<
   <a href="#"><img src="https://img.shields.io/badge/update-weekly-lightgrey.svg" alt="Chat"></a>
 </p>
 
-## Installation
+## 如何安装
 
-Install via npm:
+通过npm安装:
 
 ```bash
 $ npm i @verticalv/atom.css --save
 ```
 
-## Usage
+## 用法
 
-To use atom.css in your website, simply drop the stylesheet into your document's `<head>`, and add the class like `flex` to an element,it will display flex. That's it! 
+使用atom.css，只需要将atom.css作为样式表加入到 `<head>`标签当中, 如果需要让DOM元素拥有 `flex` 属性，只需要将`flex` 加入到元素的`class` 中。
 
 ```html
 <head>
@@ -34,9 +36,9 @@ To use atom.css in your website, simply drop the stylesheet into your document's
 </head>
 ```
 
-### Classes
+### 类
 
-To decorate an element, add the class like below to an element. 
+使用下面的`class`可以给元素加上各种属性：
 
 | Class Name        |                    |                     |                      |
 | ----------------- | ------------------ | ------------------- | -------------------- |
@@ -69,17 +71,17 @@ Full example:
 <div class="color_333 font_bold text_center">Example</div>
 ```
 
-## Accessibility
+## 可用性
 
-Atom.css supports the IE6+ and all modern browsers,and you can use class like flex in IE9+.
+Atom.css 支持IE6+，但如果要使用`flex`这样的类，建议在IE9+上使用。所有现代浏览器都支持atom.css。
 
 ## License
 
-Atom.css is licensed under the MIT license. (http://opensource.org/licenses/MIT)
+Atom.css 使用的是开放的MIT协议。(http://opensource.org/licenses/MIT)
 
 ## Contributing
 
-Pull requests are the way to go here. We only have two rules for submitting a pull request: match the naming convention (name_rules) and the single attribute principle.
+想要pull requests的看这里，我们只有两条原则：一是要遵循下划线的命名规则，二是保持`class`的单一属性原则。
 
 
 
