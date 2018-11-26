@@ -21,7 +21,7 @@ _<p align="center">Write Your Atom.css Like A Gentleman!Only atom-style CSS elem
 Install via npm:
 
 ```bash
-$ npm install animate.css --save
+$ npm i @verticalv/atom.css --save
 ```
 
 ## Usage
