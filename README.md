@@ -34,7 +34,7 @@ To use atom.css in your website, simply drop the stylesheet into your document's
 </head>
 ```
 
-### Animations
+### Classes
 
 To decorate an element, add the class like below to an element. 
 
