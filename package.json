@@ -1,6 +1,6 @@
 {
   "name": "@verticalv/atom.css",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "A atom-style library of CSS atomic elements. To build app faster and more flexible.",
   "main": "none",
   "scripts": {

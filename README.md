@@ -5,8 +5,6 @@
 
 _<p align="center">A atom-style library of CSS atomic elements. To build app faster and more flexible!</p>_
 
-<p align="center"> atom.css is a atom-style css collection,and inspired by Organic Chemistry,the concept is build app more flexible and faster,to reduce overtime,I hope it can help.</p>
-
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/join-welcome-brightgreen.svg" alt="attitude_img"></a>
   <a href="#"><img src="https://img.shields.io/badge/version-1.0-orange.svg" alt="version_img"></a>
@@ -28,40 +26,24 @@ $ npm i @verticalv/atom.css --save
 
 To use atom.css in your website, simply drop the stylesheet into your document's `<head>`, and add the class like `flex` to an element,it will display flex. That's it! 
 
+
+For example:
+
 ```html
-<head>
-  <link rel="stylesheet" href="atom.min.css">
-</head>
+<div class="w_100vw h_100vh flex justify_center align_center bg_yellow color_333 font_bold font_64">
+    Example
+</div>
 ```
+
+Output:
+
+![atom.css eg](https://user-gold-cdn.xitu.io/2018/11/26/1675083438938377?w=933&h=394&f=png&s=6650)
 
 ### Classes
 
 To decorate an element, add the class like below to an element. 
 
-| Class Name        |                    |                     |                      |
-| ----------------- | ------------------ | ------------------- | -------------------- |
-| `border_box`      | `content_box`      | `flex`              | `flex_row`        |
-| `flex_row_reverse `           | `flex_column`        | `flex_column_reverse`             | `flex_wrap`               |
-| `flex_nowrap`          | `flex_wrap_reverse`            | `justify_center`          | `justify_start`       |
-| `justify_end`    | `justify_between`    | `justify_around`        | `justify_evenly`          |
-| `justify_initial`   | `align_center`    | `align_start`    | `align_end`        |
-| `align_stretch`          | `align_baseline`       | `align_initial`     | `left`         |
-| `right`   | `clearfix`      | `margin_center`    | `margin_xcenter`           |
-| `margin_ycenter`     | `text_center`          | `text_left`       | `text_right`     |
-| `text_justify`     | `text_last_center`   | `text_last_left`      | `text_last_right`    |
-| `text_last_justify`       | `absolute`     | `relative`           | `fixed`            |
-| `static`        | `sticky`         | `none`      | `block`      |
-| `inline`        | `inline_block` | `list_item` | `radius_0 - radius_20`     |
-| `w_100` | `h_100`        | `w_100vw` | `h_100vh` |
-| `m_0 - m_200` | `mt_0 - mt_200` | `mb_0 - mb_200`             | `ml_0 - ml_200`       |
-| `mr_0 - mr_200`          | `p_0 - p_200`          | `pt_0 - pt_200`            | `pb_0 - pb_200`         |
-| `pl_0 - pl_200`      | `pr_0 - pr_200`      | `shadow_normal`          | `shadow_medium`            |
-| `shadow_high`     | `white`      | `whitesmoke`      | `white_sub`          |
-| `black`     | `color_333`      | `color_888`      | `black_sub`          |
-| `red`    | `blue`     | `green`     | `bg_white`         |
-| `bg_whitesmoke`    | `bg_white_deep`     | `bg_black`     | `bg_333`         |
-| `bg_888`    | `font_normal`     | `font_bold`     | `font_bolder`         |
-
+![classes](https://s1.ax1x.com/2018/12/02/FKkcLV.png)
 
 Full example:
 
