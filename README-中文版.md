@@ -26,18 +26,6 @@ $ npm i @verticalv/atom.css --save
 
 使用atom.css，只需要将atom.css作为样式表加入到 `<head>`标签当中, 如果需要让DOM元素拥有 `flex` 属性，只需要将`flex` 加入到元素的`class` 中。
 
-```html
-<head>
-  <link rel="stylesheet" href="atom.min.css">
-</head>
-```
-
-### 类
-
-使用下面的`class`可以给元素加上各种属性：
-
-![classes](https://s1.ax1x.com/2018/12/02/FKkcLV.png)
-
 举个栗子:
 
 ```html
@@ -50,6 +38,11 @@ $ npm i @verticalv/atom.css --save
 
 ![atom.css eg](https://user-gold-cdn.xitu.io/2018/11/26/1675083438938377?w=933&h=394&f=png&s=6650)
 
+### 类
+
+使用下面的`class`可以给元素加上各种属性：
+
+![classes](https://s1.ax1x.com/2018/12/02/FKkcLV.png)
 
 ## 可用性
 

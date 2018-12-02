@@ -26,7 +26,6 @@ $ npm i @verticalv/atom.css --save
 
 To use atom.css in your website, simply drop the stylesheet into your document's `<head>`, and add the class like `flex` to an element,it will display flex. That's it! 
 
-
 For example:
 
 ```html
@@ -44,12 +43,6 @@ Output:
 To decorate an element, add the class like below to an element. 
 
 ![classes](https://s1.ax1x.com/2018/12/02/FKkcLV.png)
-
-Full example:
-
-```html
-<div class="color_333 font_bold text_center">Example</div>
-```
 
 ## Accessibility
 
