@@ -42,7 +42,7 @@ $ npm i @verticalv/atom.css --save
 
 使用下面的`class`可以给元素加上各种属性：
 
-![classes](https://s1.ax1x.com/2018/12/02/FKkcLV.png)
+![classes](https://s1.ax1x.com/2018/12/09/FGtz1U.png)
 
 ## 可用性
 

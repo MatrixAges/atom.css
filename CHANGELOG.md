@@ -26,3 +26,13 @@
 * deleted:
     * m*_24 - m*_200 reason: Low frequency of use
     * p*_24 - p*_200 reason: Low frequency of use
+
+## [1.3.0] - 2018-12-09
+
+### add
+
+* npm published 1.3.0
+* added ：
+    * border_none
+    * transition
+    * transform

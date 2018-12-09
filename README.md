@@ -42,7 +42,7 @@ Output:
 
 To decorate an element, add the class like below to an element. 
 
-![classes](https://s1.ax1x.com/2018/12/02/FKkcLV.png)
+![classes](https://s1.ax1x.com/2018/12/09/FGtz1U.png)
 
 ## Accessibility
 
