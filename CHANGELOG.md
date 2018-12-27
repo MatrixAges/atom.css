@@ -24,8 +24,8 @@
     * h_100vh (width:100vh => height:100vh)
     * markdown table => png for excel,more clear
 * deleted:
-    * m*_24 - m*_200 reason: Low frequency of use
-    * p*_24 - p*_200 reason: Low frequency of use
+    * m*_24 - m*_200 reason: Low frequency of using
+    * p*_24 - p*_200 reason: Low frequency of using
 
 ## [1.3.0] - 2018-12-09
 
@@ -36,3 +36,44 @@
     * border_none
     * transition
     * transform
+
+## [1.3.1] - 2018-12-27
+
+### add
+
+* npm published 1.3.1
+* added ：
+    * tutorial about how to use atom.css
+    * top_0
+    * left_0
+    * right_0
+    * right_0
+    * cursor_point
+    * space_nowrap
+    * space_normal
+    * text_overflow_clip
+    * text_overflow_ellipsis
+    * webkit_box
+    * box_horizontal
+    * box_vertical
+    * line_clamp_1
+    * line_clamp_2
+    * line_clamp_3
+    * line_clamp_4
+    * line_clamp_5
+    * radius_100
+    * yellow
+    * bg_yellow
+    * border_1
+    * border_2
+    * border_solid
+    * border_dotted
+    * border_red
+    * border_blue
+    * border_green
+    * border_orange
+* deleted:
+    * letter_spacing-2 ~ letter_spacing-24 reason: Low frequency of using
+    * radius-2 6 8 12-20  reason: Low frequency of using
+    * bg_yellow  reason: Low frequency of using
+    * yellow  reason: Low frequency of using
