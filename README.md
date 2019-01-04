@@ -29,7 +29,7 @@ To use atom.css in your website, simply drop the stylesheet into your document's
 For example:
 
 ```html
-<div class="w_100vw h_100vh flex justify_center align_center bg_yellow color_333 font_bold font_64">
+<div class="flex justify_center align_center">
     Example
 </div>
 ```
