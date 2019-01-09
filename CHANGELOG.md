@@ -39,7 +39,7 @@
 
 ## [1.3.1] - 2018-12-27
 
-### add
+### add & delete
 
 * npm published 1.3.1
 * added ：
@@ -77,3 +77,39 @@
     * radius-2 6 8 12-20  reason: Low frequency of using
     * bg_yellow  reason: Low frequency of using
     * yellow  reason: Low frequency of using
+
+## [1.3.2] - 2018-1-9
+
+### delete
+
+* npm published 1.3.2
+
+* added:
+    * value & modules
+    * prefix for all browser
+    * z_index_0
+    * z_index_10
+    * z_index_20
+    * z_index_100
+
+* deleted:
+    * border_1 reason: Low frequency of using
+    * border_2 reason: Low frequency of using
+    * border_solid reason: Low frequency of using
+    * border_dotted reason: Low frequency of using
+    * border_normal_black reason: Low frequency of using
+    * border_normal_333 reason: Low frequency of using
+    * border_normal_888 reason: Low frequency of using
+    * border_bold_black reason: Low frequency of using
+    * border_bold_333 reason: Low frequency of using
+    * border_bold_888 reason: Low frequency of using
+    * border_normal_white reason: Low frequency of using
+    * border_normal_whitesmoke reason: Low frequency of using
+    * border_normal_eee reason: Low frequency of using
+    * border_bold_white reason: Low frequency of using
+    * border_bold_whitesmoke reason: Low frequency of using
+    * border_bold_eee reason: Low frequency of using
+    * transition reason: Low frequency of using
+    * transform reason: Low frequency of using
+    * shadow_* reason: Low frequency of using
+   
