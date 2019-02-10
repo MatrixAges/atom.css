@@ -1,0 +1,2569 @@
+[{
+            "title": "Flex",
+            "classes": [{
+                        "class_name": "border_box",
+                        "class_content": {
+                              "name": "border_box",
+                              "value": [
+                                    "-webkit-box-sizing: border-box;",
+                                    "box-sizing: border-box;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "content_box",
+                        "class_content": {
+                              "name": "content_box",
+                              "value": [
+                                    "-webkit-box-sizing: content-box;",
+                                    "box-sizing: content-box;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "flex",
+                        "class_content": {
+                              "name": "flex",
+                              "value": [
+                                    "display: -webkit-box",
+                                    "display: -ms-flexbox"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "flex_row",
+                        "class_content": {
+                              "name": "flex",
+                              "value": [
+                                    "-webkit-box-orient: horizontal;",
+                                    "-webkit-box-direction: normal;",
+                                    "-ms-flex-direction: row;",
+                                    "flex-direction: row;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "flex_row_reverse",
+                        "class_content": {
+                              "name": "flex_row_reverse",
+                              "value": [
+                                    "-webkit-box-orient: horizontal;",
+                                    "-webkit-box-direction: reverse;",
+                                    "-ms-flex-direction: row-reverse;",
+                                    "flex-direction: row-reverse;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "flex_column",
+                        "class_content": {
+                              "name": "flex_column",
+                              "value": [
+                                    "-webkit-box-orient: vertical;",
+                                    "-webkit-box-direction: normal;",
+                                    "-ms-flex-direction: column;",
+                                    "flex-direction: column;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "flex_column",
+                        "class_content": {
+                              "name": "flex_column",
+                              "value": [
+                                    "-webkit-box-orient: vertical;",
+                                    "-webkit-box-direction: reverse;",
+                                    "-ms-flex-direction: column-reverse;",
+                                    "flex-direction: column-reverse;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "flex_wrap",
+                        "class_content": {
+                              "name": "flex_wrap",
+                              "value": [
+                                    "-ms-flex-wrap: wrap;",
+                                    "flex-wrap: wrap;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "flex_nowrap",
+                        "class_content": {
+                              "name": "flex_nowrap",
+                              "value": [
+                                    "-ms-flex-wrap: nowrap;",
+                                    "flex-wrap: nowrap;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "flex_wrap_reverse",
+                        "class_content": {
+                              "name": "flex_wrap_reverse",
+                              "value": [
+                                    "-ms-flex-wrap: wrap-reverse;",
+                                    "flex-wrap: wrap-reverse;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "justify_center",
+                        "class_content": {
+                              "name": "justify_center",
+                              "value": [
+                                    "-webkit-box-pack: center;",
+                                    "-ms-flex-pack: center;",
+                                    "justify-content: center;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "justify_start",
+                        "class_content": {
+                              "name": "justify_start",
+                              "value": [
+                                    "-webkit-box-pack: start;",
+                                    "-ms-flex-pack: start;",
+                                    "justify-content: flex-start;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "justify_end",
+                        "class_content": {
+                              "name": "justify_end",
+                              "value": [
+                                    "-webkit-box-pack: end;",
+                                    "-ms-flex-pack: end;",
+                                    "justify-content: flex-end;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "justify_between",
+                        "class_content": {
+                              "name": "justify_between",
+                              "value": [
+                                    "-webkit-box-pack: justify;",
+                                    "-ms-flex-pack: justify;",
+                                    "justify-content: space-between;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "justify_around",
+                        "class_content": {
+                              "name": "justify_around",
+                              "value": [
+                                    "-ms-flex-pack: distribute;",
+                                    "justify-content: space-around;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "justify_evenly",
+                        "class_content": {
+                              "name": "justify_evenly",
+                              "value": [
+                                    "-webkit-box-pack: space-evenly;",
+                                    "-ms-flex-pack: space-evenly;",
+                                    "justify-content: space-evenly;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "justify_initial",
+                        "class_content": {
+                              "name": "justify_initial",
+                              "value": [
+                                    "-webkit-box-pack: initial;",
+                                    "-ms-flex-pack: initial;",
+                                    "justify-content: initial;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "align_center",
+                        "class_content": {
+                              "name": "align_center",
+                              "value": [
+                                    "-webkit-box-align: center;",
+                                    "-ms-flex-align: center;",
+                                    "align-items: center;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "align_start",
+                        "class_content": {
+                              "name": "align_start",
+                              "value": [
+                                    "-webkit-box-align: start;",
+                                    "-ms-flex-align: start;",
+                                    "align-items: flex-start;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "align_end",
+                        "class_content": {
+                              "name": "align_end",
+                              "value": [
+                                    "-webkit-box-align: end;",
+                                    "-ms-flex-align: end;",
+                                    "align-items: flex-end;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "align_stretch",
+                        "class_content": {
+                              "name": "align_stretch",
+                              "value": [
+                                    "-webkit-box-align: stretch;",
+                                    "-ms-flex-align: stretch;",
+                                    "align-items: stretch;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "align_baseline",
+                        "class_content": {
+                              "name": "align_baseline",
+                              "value": [
+                                    "-webkit-box-align: baseline;",
+                                    "-ms-flex-align: baseline;",
+                                    "align-items: baseline;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "align_initial",
+                        "class_content": {
+                              "name": "align_initial",
+                              "value": [
+                                    "-webkit-box-align: initial;",
+                                    "-ms-flex-align: initial;",
+                                    "align-items: initial;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "line_clamp_1",
+                        "class_content": {
+                              "name": "line_clamp_1",
+                              "value": [
+                                    "overflow: hidden;",
+                                    "-o-text-overflow: ellipsis;",
+                                    "text-overflow: ellipsis;",
+                                    "white-space: nowrap;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "line_clamp_2",
+                        "class_content": {
+                              "name": "line_clamp_2",
+                              "value": [
+                                    "display: -webkit-box;",
+                                    "-webkit-box-orient: vertical;",
+                                    "overflow: hidden;",
+                                    "-webkit-line-clamp: 2;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "line_clamp_3",
+                        "class_content": {
+                              "name": "line_clamp_3",
+                              "value": [
+                                    "display: -webkit-box;",
+                                    "-webkit-box-orient: vertical;",
+                                    "overflow: hidden;",
+                                    "-webkit-line-clamp: 3;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "line_clamp_4",
+                        "class_content": {
+                              "name": "line_clamp_4",
+                              "value": [
+                                    "display: -webkit-box;",
+                                    "-webkit-box-orient: vertical;",
+                                    "overflow: hidden;",
+                                    "-webkit-line-clamp: 4;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "line_clamp_5",
+                        "class_content": {
+                              "name": "line_clamp_5",
+                              "value": [
+                                    "display: -webkit-box;",
+                                    "-webkit-box-orient: vertical;",
+                                    "overflow: hidden;",
+                                    "-webkit-line-clamp: 5;"
+                              ]
+                        }
+                  }
+            ]
+      },
+      {
+            "title": "Float",
+            "classes": [{
+                        "class_name": "left",
+                        "class_content": {
+                              "name": "left",
+                              "value": [
+                                    "float: left;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "right",
+                        "class_content": {
+                              "name": "right",
+                              "value": [
+                                    "float: right;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "clearfix",
+                        "class_content": {
+                              "name": "clearfix",
+                              "value": [
+                                    "display: inline-table;",
+                                    "*zoom: 1;"
+                              ],
+                              "after": [
+                                    "visibility: hidden;",
+                                    "display: block;",
+                                    "font-size: 0;",
+                                    "content: '';",
+                                    "clear: both;",
+                                    "height: 0;"
+                              ]
+                        }
+                  }
+            ]
+      },
+      {
+            "title": "Position",
+            "classes": [{
+                        "class_name": "margin_center",
+                        "class_content": {
+                              "name": "margin_center",
+                              "value": [
+                                    "margin: auto;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "margin_xcenter",
+                        "class_content": {
+                              "name": "margin_xcenter",
+                              "value": [
+                                    "margin: 0 auto;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "margin_ycenter",
+                        "class_content": {
+                              "name": "margin_ycenter",
+                              "value": [
+                                    "margin: auto 0;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "text_center",
+                        "class_content": {
+                              "name": "text_center",
+                              "value": [
+                                    "text-align: center;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "text_left",
+                        "class_content": {
+                              "name": "text_left",
+                              "value": [
+                                    "text-align: left;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "text_right",
+                        "class_content": {
+                              "name": "text_right",
+                              "value": [
+                                    "text-align: right;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "text_justify",
+                        "class_content": {
+                              "name": "text_justify",
+                              "value": [
+                                    "text-align: justify;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "absolute",
+                        "class_content": {
+                              "name": "absolute",
+                              "value": [
+                                    "position: absolute;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "relative",
+                        "class_content": {
+                              "name": "relative",
+                              "value": [
+                                    "position: relative;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "fixed",
+                        "class_content": {
+                              "name": "fixed",
+                              "value": [
+                                    "position: fixed;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "sticky",
+                        "class_content": {
+                              "name": "sticky",
+                              "value": [
+                                    "position: sticky;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "top_0",
+                        "class_content": {
+                              "name": "top_0",
+                              "value": [
+                                    "top: 0;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "left_0",
+                        "class_content": {
+                              "name": "left_0",
+                              "value": [
+                                    "left: 0;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "right_0",
+                        "class_content": {
+                              "name": "right_0",
+                              "value": [
+                                    "right: 0;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "bottom_0",
+                        "class_content": {
+                              "name": "bottom_0",
+                              "value": [
+                                    "bottom: 0;"
+                              ]
+                        }
+                  }
+            ]
+      },
+      {
+            "title": "Display",
+            "classes": [{
+                        "class_name": "z_index_0",
+                        "class_content": {
+                              "name": "z_index_0",
+                              "value": [
+                                    "z-index: 0;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "z_index_10",
+                        "class_content": {
+                              "name": "z_index_10",
+                              "value": [
+                                    "z-index: 10;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "z_index_20",
+                        "class_content": {
+                              "name": "z_index_20",
+                              "value": [
+                                    "z-index: 20;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "z_index_100",
+                        "class_content": {
+                              "name": "z_index_100",
+                              "value": [
+                                    "z-index: 100;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "z_index_1000",
+                        "class_content": {
+                              "name": "z_index_1000",
+                              "value": [
+                                    "z-index: 1000;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "none",
+                        "class_content": {
+                              "name": "none",
+                              "value": [
+                                    "display: none;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "block",
+                        "class_content": {
+                              "name": "block",
+                              "value": [
+                                    "display: block;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "inline",
+                        "class_content": {
+                              "name": "inline",
+                              "value": [
+                                    "display: inline;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "inline_block",
+                        "class_content": {
+                              "name": "inline_block",
+                              "value": [
+                                    "display: inline-block;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "list_item",
+                        "class_content": {
+                              "name": "list_item",
+                              "value": [
+                                    "display: list-item;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "radius_0",
+                        "class_content": {
+                              "name": "radius_0",
+                              "value": [
+                                    "border-radius: 0px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "radius_4",
+                        "class_content": {
+                              "name": "radius_4",
+                              "value": [
+                                    "border-radius: 4px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "radius_10",
+                        "class_content": {
+                              "name": "radius_10",
+                              "value": [
+                                    "border-radius: 10px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "radius_100",
+                        "class_content": {
+                              "name": "radius_100",
+                              "value": [
+                                    "border-radius: 100px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "border_none",
+                        "class_content": {
+                              "name": "border_none",
+                              "value": [
+                                    "border: none;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "overflow_visible",
+                        "class_content": {
+                              "name": "overflow_visible",
+                              "value": [
+                                    "overflow: visible;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "overflow_hidden",
+                        "class_content": {
+                              "name": "overflow_hidden",
+                              "value": [
+                                    "overflow: hidden;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "overflow_xhidden",
+                        "class_content": {
+                              "name": "overflow_xhidden",
+                              "value": [
+                                    "overflow-x: hidden;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "overflow_yhidden",
+                        "class_content": {
+                              "name": "overflow_yhidden",
+                              "value": [
+                                    "overflow-y: hidden;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "outline_none",
+                        "class_content": {
+                              "name": "outline_none",
+                              "value": [
+                                    "outline: none;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "transition_normal",
+                        "class_content": {
+                              "name": "transition_normal",
+                              "value": [
+                                    "-webkit-transition: all ease 0.3s;",
+                                    "-o-transition: all ease 0.3s;",
+                                    "transition: all ease 0.3s;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "transition_slow",
+                        "class_content": {
+                              "name": "transition_slow",
+                              "value": [
+                                    "-webkit-transition: all ease 0.8s;",
+                                    "-o-transition: all ease 0.8s;",
+                                    "transition: all ease 0.8s;"
+                              ]
+                        }
+                  }
+            ]
+      },
+      {
+            "title": "Interval",
+            "classes": [
+                  {
+                        "class_name": "w_100",
+                        "class_content": {
+                              "name": "w_100",
+                              "value": [
+                                    "width: 100%;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "h_100",
+                        "class_content": {
+                              "name": "h_100",
+                              "value": [
+                                    "height: 100%;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "w_100vw",
+                        "class_content": {
+                              "name": "w_100vw",
+                              "value": [
+                                    "width: 100vw;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "h_100vh",
+                        "class_content": {
+                              "name": "h_100vh",
+                              "value": [
+                                    "height: 100vh;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "m_0",
+                        "class_content": {
+                              "name": "m_0",
+                              "value": [
+                                    "margin: 0px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "m_2",
+                        "class_content": {
+                              "name": "m_2",
+                              "value": [
+                                    "margin: 2px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "m_4",
+                        "class_content": {
+                              "name": "m_4",
+                              "value": [
+                                    "margin: 4px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "m_6",
+                        "class_content": {
+                              "name": "m_6",
+                              "value": [
+                                    "margin: 6px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "m_8",
+                        "class_content": {
+                              "name": "m_8",
+                              "value": [
+                                    "margin: 8px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "m_10",
+                        "class_content": {
+                              "name": "m_10",
+                              "value": [
+                                    "margin: 10px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "m_12",
+                        "class_content": {
+                              "name": "m_12",
+                              "value": [
+                                    "margin: 12px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "m_14",
+                        "class_content": {
+                              "name": "m_14",
+                              "value": [
+                                    "margin: 14px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "m_16",
+                        "class_content": {
+                              "name": "m_16",
+                              "value": [
+                                    "margin: 16px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "m_18",
+                        "class_content": {
+                              "name": "m_18",
+                              "value": [
+                                    "margin: 18px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "m_20",
+                        "class_content": {
+                              "name": "m_20",
+                              "value": [
+                                    "margin: 20px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "m_30",
+                        "class_content": {
+                              "name": "m_30",
+                              "value": [
+                                    "margin: 30px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mt_0",
+                        "class_content": {
+                              "name": "mt_0",
+                              "value": [
+                                    "margin-top: 0px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mt_2",
+                        "class_content": {
+                              "name": "mt_2",
+                              "value": [
+                                    "margin-top: 2px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mt_4",
+                        "class_content": {
+                              "name": "mt_4",
+                              "value": [
+                                    "margin-top: 4px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mt_6",
+                        "class_content": {
+                              "name": "mt_6",
+                              "value": [
+                                    "margin-top: 6px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mt_8",
+                        "class_content": {
+                              "name": "mt_8",
+                              "value": [
+                                    "margin-top: 8px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mt_10",
+                        "class_content": {
+                              "name": "mt_10",
+                              "value": [
+                                    "margin-top: 10px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mt_12",
+                        "class_content": {
+                              "name": "mt_12",
+                              "value": [
+                                    "margin-top: 12px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mt_14",
+                        "class_content": {
+                              "name": "mt_14",
+                              "value": [
+                                    "margin-top: 14px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mt_16",
+                        "class_content": {
+                              "name": "mt_16",
+                              "value": [
+                                    "margin-top: 16px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mt_18",
+                        "class_content": {
+                              "name": "mt_18",
+                              "value": [
+                                    "margin-top: 18px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mt_20",
+                        "class_content": {
+                              "name": "mt_20",
+                              "value": [
+                                    "margin-top: 20px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mt_30",
+                        "class_content": {
+                              "name": "mt_30",
+                              "value": [
+                                    "margin-top: 30px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mb_0",
+                        "class_content": {
+                              "name": "mb_0",
+                              "value": [
+                                    "margin-bottom: 0px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mb_2",
+                        "class_content": {
+                              "name": "mb_2",
+                              "value": [
+                                    "margin-bottom: 2px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mb_4",
+                        "class_content": {
+                              "name": "mb_4",
+                              "value": [
+                                    "margin-bottom: 4px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mb_6",
+                        "class_content": {
+                              "name": "mb_6",
+                              "value": [
+                                    "margin-bottom: 6px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mb_8",
+                        "class_content": {
+                              "name": "mb_8",
+                              "value": [
+                                    "margin-bottom: 8px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mb_10",
+                        "class_content": {
+                              "name": "mb_10",
+                              "value": [
+                                    "margin-bottom: 10px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mb_12",
+                        "class_content": {
+                              "name": "mb_12",
+                              "value": [
+                                    "margin-bottom: 12px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mb_14",
+                        "class_content": {
+                              "name": "mb_14",
+                              "value": [
+                                    "margin-bottom: 14px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mb_16",
+                        "class_content": {
+                              "name": "mb_16",
+                              "value": [
+                                    "margin-bottom: 16px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mb_18",
+                        "class_content": {
+                              "name": "mb_18",
+                              "value": [
+                                    "margin-bottom: 18px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mb_20",
+                        "class_content": {
+                              "name": "mb_20",
+                              "value": [
+                                    "margin-bottom: 20px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mb_30",
+                        "class_content": {
+                              "name": "mb_30",
+                              "value": [
+                                    "margin-bottom: 30px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "ml_0",
+                        "class_content": {
+                              "name": "ml_0",
+                              "value": [
+                                    "margin-left: 0px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "ml_2",
+                        "class_content": {
+                              "name": "ml_2",
+                              "value": [
+                                    "margin-left: 2px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "ml_4",
+                        "class_content": {
+                              "name": "ml_4",
+                              "value": [
+                                    "margin-left: 4px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "ml_6",
+                        "class_content": {
+                              "name": "ml_6",
+                              "value": [
+                                    "margin-left: 6px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "ml_8",
+                        "class_content": {
+                              "name": "ml_8",
+                              "value": [
+                                    "margin-left: 8px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "ml_10",
+                        "class_content": {
+                              "name": "ml_10",
+                              "value": [
+                                    "margin-left: 10px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "ml_12",
+                        "class_content": {
+                              "name": "ml_12",
+                              "value": [
+                                    "margin-left: 12px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "ml_14",
+                        "class_content": {
+                              "name": "ml_14",
+                              "value": [
+                                    "margin-left: 14px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "ml_16",
+                        "class_content": {
+                              "name": "ml_16",
+                              "value": [
+                                    "margin-left: 16px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "ml_18",
+                        "class_content": {
+                              "name": "ml_18",
+                              "value": [
+                                    "margin-left: 18px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "ml_20",
+                        "class_content": {
+                              "name": "ml_20",
+                              "value": [
+                                    "margin-left: 20px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "ml_30",
+                        "class_content": {
+                              "name": "ml_30",
+                              "value": [
+                                    "margin-left: 30px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mr_0",
+                        "class_content": {
+                              "name": "mr_0",
+                              "value": [
+                                    "margin-right: 0px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mr_2",
+                        "class_content": {
+                              "name": "mr_2",
+                              "value": [
+                                    "margin-right: 2px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mr_4",
+                        "class_content": {
+                              "name": "mr_4",
+                              "value": [
+                                    "margin-right: 4px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mr_6",
+                        "class_content": {
+                              "name": "mr_6",
+                              "value": [
+                                    "margin-right: 6px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mr_8",
+                        "class_content": {
+                              "name": "mr_8",
+                              "value": [
+                                    "margin-right: 8px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mr_10",
+                        "class_content": {
+                              "name": "mr_10",
+                              "value": [
+                                    "margin-right: 10px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mr_12",
+                        "class_content": {
+                              "name": "mr_12",
+                              "value": [
+                                    "margin-right: 12px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mr_14",
+                        "class_content": {
+                              "name": "mr_14",
+                              "value": [
+                                    "margin-right: 14px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mr_16",
+                        "class_content": {
+                              "name": "mr_16",
+                              "value": [
+                                    "margin-right: 16px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mr_18",
+                        "class_content": {
+                              "name": "mr_18",
+                              "value": [
+                                    "margin-right: 18px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mr_20",
+                        "class_content": {
+                              "name": "mr_20",
+                              "value": [
+                                    "margin-right: 20px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "mr_30",
+                        "class_content": {
+                              "name": "mr_30",
+                              "value": [
+                                    "margin-right: 30px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "p_0",
+                        "class_content": {
+                              "name": "p_0",
+                              "value": [
+                                    "padding: 0px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "p_2",
+                        "class_content": {
+                              "name": "p_2",
+                              "value": [
+                                    "padding: 2px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "p_4",
+                        "class_content": {
+                              "name": "p_4",
+                              "value": [
+                                    "padding: 4px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "p_6",
+                        "class_content": {
+                              "name": "p_6",
+                              "value": [
+                                    "padding: 6px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "p_8",
+                        "class_content": {
+                              "name": "p_8",
+                              "value": [
+                                    "padding: 8px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "p_10",
+                        "class_content": {
+                              "name": "p_10",
+                              "value": [
+                                    "padding: 10px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "p_12",
+                        "class_content": {
+                              "name": "p_12",
+                              "value": [
+                                    "padding: 12px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "p_14",
+                        "class_content": {
+                              "name": "p_14",
+                              "value": [
+                                    "padding: 14px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "p_16",
+                        "class_content": {
+                              "name": "p_16",
+                              "value": [
+                                    "padding: 16px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "p_18",
+                        "class_content": {
+                              "name": "p_18",
+                              "value": [
+                                    "padding: 18px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "p_20",
+                        "class_content": {
+                              "name": "p_20",
+                              "value": [
+                                    "padding: 20px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "p_30",
+                        "class_content": {
+                              "name": "p_30",
+                              "value": [
+                                    "padding: 30px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pt_0",
+                        "class_content": {
+                              "name": "pt_0",
+                              "value": [
+                                    "padding-top: 0px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pt_2",
+                        "class_content": {
+                              "name": "pt_2",
+                              "value": [
+                                    "padding-top: 2px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pt_4",
+                        "class_content": {
+                              "name": "pt_4",
+                              "value": [
+                                    "padding-top: 4px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pt_6",
+                        "class_content": {
+                              "name": "pt_6",
+                              "value": [
+                                    "padding-top: 6px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pt_8",
+                        "class_content": {
+                              "name": "pt_8",
+                              "value": [
+                                    "padding-top: 8px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pt_10",
+                        "class_content": {
+                              "name": "pt_10",
+                              "value": [
+                                    "padding-top: 10px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pt_12",
+                        "class_content": {
+                              "name": "pt_12",
+                              "value": [
+                                    "padding-top: 12px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pt_14",
+                        "class_content": {
+                              "name": "pt_14",
+                              "value": [
+                                    "padding-top: 14px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pt_16",
+                        "class_content": {
+                              "name": "pt_16",
+                              "value": [
+                                    "padding-top: 16px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pt_18",
+                        "class_content": {
+                              "name": "pt_18",
+                              "value": [
+                                    "padding-top: 18px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pt_20",
+                        "class_content": {
+                              "name": "pt_20",
+                              "value": [
+                                    "padding-top: 20px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pt_30",
+                        "class_content": {
+                              "name": "pt_30",
+                              "value": [
+                                    "padding-top: 30px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pb_0",
+                        "class_content": {
+                              "name": "pb_0",
+                              "value": [
+                                    "padding-bottom: 0px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pb_2",
+                        "class_content": {
+                              "name": "pb_2",
+                              "value": [
+                                    "padding-bottom: 2px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pb_4",
+                        "class_content": {
+                              "name": "pb_4",
+                              "value": [
+                                    "padding-bottom: 4px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pb_6",
+                        "class_content": {
+                              "name": "pb_6",
+                              "value": [
+                                    "padding-bottom: 6px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pb_8",
+                        "class_content": {
+                              "name": "pb_8",
+                              "value": [
+                                    "padding-bottom: 8px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pb_10",
+                        "class_content": {
+                              "name": "pb_10",
+                              "value": [
+                                    "padding-bottom: 10px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pb_12",
+                        "class_content": {
+                              "name": "pb_12",
+                              "value": [
+                                    "padding-bottom: 12px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pb_14",
+                        "class_content": {
+                              "name": "pb_14",
+                              "value": [
+                                    "padding-bottom: 14px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pb_16",
+                        "class_content": {
+                              "name": "pb_16",
+                              "value": [
+                                    "padding-bottom: 16px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pb_18",
+                        "class_content": {
+                              "name": "pb_18",
+                              "value": [
+                                    "padding-bottom: 18px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pb_20",
+                        "class_content": {
+                              "name": "pb_20",
+                              "value": [
+                                    "padding-bottom: 20px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pb_30",
+                        "class_content": {
+                              "name": "pb_30",
+                              "value": [
+                                    "padding-bottom: 30px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pl_0",
+                        "class_content": {
+                              "name": "pl_0",
+                              "value": [
+                                    "padding-left: 0px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pl_2",
+                        "class_content": {
+                              "name": "pl_2",
+                              "value": [
+                                    "padding-left: 2px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pl_4",
+                        "class_content": {
+                              "name": "pl_4",
+                              "value": [
+                                    "padding-left: 4px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pl_6",
+                        "class_content": {
+                              "name": "pl_6",
+                              "value": [
+                                    "padding-left: 6px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pl_8",
+                        "class_content": {
+                              "name": "pl_8",
+                              "value": [
+                                    "padding-left: 8px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pl_10",
+                        "class_content": {
+                              "name": "pl_10",
+                              "value": [
+                                    "padding-left: 10px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pl_12",
+                        "class_content": {
+                              "name": "pl_12",
+                              "value": [
+                                    "padding-left: 12px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pl_14",
+                        "class_content": {
+                              "name": "pl_14",
+                              "value": [
+                                    "padding-left: 14px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pl_16",
+                        "class_content": {
+                              "name": "pl_16",
+                              "value": [
+                                    "padding-left: 16px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pl_18",
+                        "class_content": {
+                              "name": "pl_18",
+                              "value": [
+                                    "padding-left: 18px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pl_20",
+                        "class_content": {
+                              "name": "pl_20",
+                              "value": [
+                                    "padding-left: 20px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pl_30",
+                        "class_content": {
+                              "name": "pl_30",
+                              "value": [
+                                    "padding-left: 30px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pr_0",
+                        "class_content": {
+                              "name": "pr_0",
+                              "value": [
+                                    "padding-right: 0px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pr_2",
+                        "class_content": {
+                              "name": "pr_2",
+                              "value": [
+                                    "padding-right: 2px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pr_4",
+                        "class_content": {
+                              "name": "pr_4",
+                              "value": [
+                                    "padding-right: 4px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pr_6",
+                        "class_content": {
+                              "name": "pr_6",
+                              "value": [
+                                    "padding-right: 6px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pr_8",
+                        "class_content": {
+                              "name": "pr_8",
+                              "value": [
+                                    "padding-right: 8px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pr_10",
+                        "class_content": {
+                              "name": "pr_10",
+                              "value": [
+                                    "padding-right: 10px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pr_12",
+                        "class_content": {
+                              "name": "pr_12",
+                              "value": [
+                                    "padding-right: 12px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pr_14",
+                        "class_content": {
+                              "name": "pr_14",
+                              "value": [
+                                    "padding-right: 14px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pr_16",
+                        "class_content": {
+                              "name": "pr_16",
+                              "value": [
+                                    "padding-right: 16px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pr_18",
+                        "class_content": {
+                              "name": "pr_18",
+                              "value": [
+                                    "padding-right: 18px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pr_20",
+                        "class_content": {
+                              "name": "pr_20",
+                              "value": [
+                                    "padding-right: 20px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "pr_30",
+                        "class_content": {
+                              "name": "pr_30",
+                              "value": [
+                                    "padding-right: 30px;"
+                              ]
+                        }
+                  }
+            ]
+      },
+      {
+            "title": "Color",
+            "classes": [
+                  {
+                        "class_name": "transparent",
+                        "class_content": {
+                              "name": "transparent",
+                              "value": [
+                                    "color: transparent;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "white",
+                        "class_content": {
+                              "name": "white",
+                              "value": [
+                                    "color: white;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "whitesmoke",
+                        "class_content": {
+                              "name": "whitesmoke",
+                              "value": [
+                                    "color: whitesmoke;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "black",
+                        "class_content": {
+                              "name": "black",
+                              "value": [
+                                    "color: black;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "red",
+                        "class_content": {
+                              "name": "red",
+                              "value": [
+                                    "color: #F44336;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "orange",
+                        "class_content": {
+                              "name": "orange",
+                              "value": [
+                                    "color: #FF9800;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "yellow",
+                        "class_content": {
+                              "name": "yellow",
+                              "value": [
+                                    "color: #FFD600;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "green",
+                        "class_content": {
+                              "name": "green",
+                              "value": [
+                                    "color: #4CAF50;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "cyan",
+                        "class_content": {
+                              "name": "cyan",
+                              "value": [
+                                    "color: #00BCD4;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "blue",
+                        "class_content": {
+                              "name": "blue",
+                              "value": [
+                                    "color: #2196F3;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "purple",
+                        "class_content": {
+                              "name": "purple",
+                              "value": [
+                                    "color: #673AB7;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "color_000",
+                        "class_content": {
+                              "name": "color_000",
+                              "value": [
+                                    "color: #000;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "color_111",
+                        "class_content": {
+                              "name": "color_111",
+                              "value": [
+                                    "color: #111;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "color_222",
+                        "class_content": {
+                              "name": "color_222",
+                              "value": [
+                                    "color: #222;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "color_333",
+                        "class_content": {
+                              "name": "color_333",
+                              "value": [
+                                    "color: #333;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "color_444",
+                        "class_content": {
+                              "name": "color_444",
+                              "value": [
+                                    "color: #444;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "color_555",
+                        "class_content": {
+                              "name": "color_555",
+                              "value": [
+                                    "color: #555;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "color_666",
+                        "class_content": {
+                              "name": "color_666",
+                              "value": [
+                                    "color: #666;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "color_777",
+                        "class_content": {
+                              "name": "color_777",
+                              "value": [
+                                    "color: #777;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "color_888",
+                        "class_content": {
+                              "name": "color_888",
+                              "value": [
+                                    "color: #888;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "color_999",
+                        "class_content": {
+                              "name": "color_999",
+                              "value": [
+                                    "color: #999;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "color_aaa",
+                        "class_content": {
+                              "name": "color_aaa",
+                              "value": [
+                                    "color: #aaa;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "color_bbb",
+                        "class_content": {
+                              "name": "color_bbb",
+                              "value": [
+                                    "color: #bbb;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "color_ccc",
+                        "class_content": {
+                              "name": "color_ccc",
+                              "value": [
+                                    "color: #ccc;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "color_ddd",
+                        "class_content": {
+                              "name": "color_ddd",
+                              "value": [
+                                    "color: #ddd;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "color_eee",
+                        "class_content": {
+                              "name": "color_eee",
+                              "value": [
+                                    "color: #eee;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "color_fff",
+                        "class_content": {
+                              "name": "color_fff",
+                              "value": [
+                                    "color: #fff;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "bg_transparent",
+                        "class_content": {
+                              "name": "bg_transparent",
+                              "value": [
+                                    "background-color: transparent;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "bg_white",
+                        "class_content": {
+                              "name": "bg_white",
+                              "value": [
+                                    "background-color: white;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "bg_whitesmoke",
+                        "class_content": {
+                              "name": "bg_whitesmoke",
+                              "value": [
+                                    "background-color: whitesmoke;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "bg_black",
+                        "class_content": {
+                              "name": "bg_black",
+                              "value": [
+                                    "background-color: black;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "bg_red",
+                        "class_content": {
+                              "name": "bg_red",
+                              "value": [
+                                    "background-color: #F44336;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "bg_orange",
+                        "class_content": {
+                              "name": "bg_orange",
+                              "value": [
+                                    "background-color: #FF9800;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "bg_yellow",
+                        "class_content": {
+                              "name": "bg_yellow",
+                              "value": [
+                                    "background-color: #FFD600;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "bg_green",
+                        "class_content": {
+                              "name": "bg_green",
+                              "value": [
+                                    "background-color: #4CAF50;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "bg_cyan",
+                        "class_content": {
+                              "name": "bg_cyan",
+                              "value": [
+                                    "background-color: #00BCD4;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "bg_blue",
+                        "class_content": {
+                              "name": "bg_blue",
+                              "value": [
+                                    "background-color: #2196F3;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "bg_purple",
+                        "class_content": {
+                              "name": "bg_purple",
+                              "value": [
+                                    "background-color: #673AB7;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "bg_color_000",
+                        "class_content": {
+                              "name": "bg_color_000",
+                              "value": [
+                                    "background-color: #000;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "bg_color_111",
+                        "class_content": {
+                              "name": "bg_color_111",
+                              "value": [
+                                    "background-color: #111;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "bg_color_222",
+                        "class_content": {
+                              "name": "bg_color_222",
+                              "value": [
+                                    "background-color: #222;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "bg_color_333",
+                        "class_content": {
+                              "name": "bg_color_333",
+                              "value": [
+                                    "background-color: #333;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "bg_color_444",
+                        "class_content": {
+                              "name": "bg_color_444",
+                              "value": [
+                                    "background-color: #444;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "bg_color_555",
+                        "class_content": {
+                              "name": "bg_color_555",
+                              "value": [
+                                    "background-color: #555;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "bg_color_666",
+                        "class_content": {
+                              "name": "bg_color_666",
+                              "value": [
+                                    "background-color: #666;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "bg_color_777",
+                        "class_content": {
+                              "name": "bg_color_777",
+                              "value": [
+                                    "background-color: #777;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "bg_color_888",
+                        "class_content": {
+                              "name": "bg_color_888",
+                              "value": [
+                                    "background-color: #888;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "bg_color_999",
+                        "class_content": {
+                              "name": "bg_color_999",
+                              "value": [
+                                    "background-color: #999;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "bg_color_aaa",
+                        "class_content": {
+                              "name": "bg_color_aaa",
+                              "value": [
+                                    "background-color: #aaa;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "bg_color_bbb",
+                        "class_content": {
+                              "name": "bg_color_bbb",
+                              "value": [
+                                    "background-color: #bbb;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "bg_color_ccc",
+                        "class_content": {
+                              "name": "bg_color_ccc",
+                              "value": [
+                                    "background-color: #ccc;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "bg_color_ddd",
+                        "class_content": {
+                              "name": "bg_color_ddd",
+                              "value": [
+                                    "background-color: #ddd;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "bg_color_eee",
+                        "class_content": {
+                              "name": "bg_color_eee",
+                              "value": [
+                                    "background-color: #eee;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "bg_color_fff",
+                        "class_content": {
+                              "name": "bg_color_fff",
+                              "value": [
+                                    "background-color: #fff;"
+                              ]
+                        }
+                  }
+            ]
+      },
+      {
+            "title": "Font",
+            "classes": [
+                  {
+                        "class_name": "font_normal",
+                        "class_content": {
+                              "name": "font_normal",
+                              "value": [
+                                    "font-weight: normal;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "font_bold",
+                        "class_content": {
+                              "name": "font_bold",
+                              "value": [
+                                    "font-weight: bold;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "font_bolder",
+                        "class_content": {
+                              "name": "font_bolder",
+                              "value": [
+                                    "font-weight: bolder;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "fontsize_8",
+                        "class_content": {
+                              "name": "fontsize_8",
+                              "value": [
+                                    "font-size: 8px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "fontsize_10",
+                        "class_content": {
+                              "name": "fontsize_10",
+                              "value": [
+                                    "font-size: 10px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "fontsize_12",
+                        "class_content": {
+                              "name": "fontsize_12",
+                              "value": [
+                                    "font-size: 12px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "fontsize_13",
+                        "class_content": {
+                              "name": "fontsize_13",
+                              "value": [
+                                    "font-size: 13px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "fontsize_14",
+                        "class_content": {
+                              "name": "fontsize_14",
+                              "value": [
+                                    "font-size: 14px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "fontsize_15",
+                        "class_content": {
+                              "name": "fontsize_15",
+                              "value": [
+                                    "font-size: 15px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "fontsize_16",
+                        "class_content": {
+                              "name": "fontsize_16",
+                              "value": [
+                                    "font-size: 16px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "fontsize_18",
+                        "class_content": {
+                              "name": "fontsize_18",
+                              "value": [
+                                    "font-size: 18px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "fontsize_20",
+                        "class_content": {
+                              "name": "fontsize_20",
+                              "value": [
+                                    "font-size: 20px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "fontsize_24",
+                        "class_content": {
+                              "name": "fontsize_24",
+                              "value": [
+                                    "font-size: 24px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "fontsize_32",
+                        "class_content": {
+                              "name": "fontsize_32",
+                              "value": [
+                                    "font-size: 32px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "fontsize_64",
+                        "class_content": {
+                              "name": "fontsize_64",
+                              "value": [
+                                    "font-size: 64px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "fontsize_128",
+                        "class_content": {
+                              "name": "fontsize_128",
+                              "value": [
+                                    "font-size: 128px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "fontfamily_simhei",
+                        "class_content": {
+                              "name": "fontfamily_simhei",
+                              "value": [
+                                    "font-family: simhei;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "fontfamily_simsun",
+                        "class_content": {
+                              "name": "fontfamily_simsun",
+                              "value": [
+                                    "font-family: simsun;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "fontfamily_nsimsun",
+                        "class_content": {
+                              "name": "fontfamily_nsimsun",
+                              "value": [
+                                    "font-family: nsimsun;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "fontfamily_fangsong",
+                        "class_content": {
+                              "name": "fontfamily_fangsong",
+                              "value": [
+                                    "font-family: fangsong;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "fontfamily_kaiti",
+                        "class_content": {
+                              "name": "fontfamily_kaiti",
+                              "value": [
+                                    "font-family: kaiti;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "fontfamily_yahei",
+                        "class_content": {
+                              "name": "fontfamily_yahei",
+                              "value": [
+                                    "font-family: microsoft yahei;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "fontfamily_lisu",
+                        "class_content": {
+                              "name": "fontfamily_lisu",
+                              "value": [
+                                    "font-family: lisu;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "fontfamily_pingfang",
+                        "class_content": {
+                              "name": "fontfamily_pingfang",
+                              "value": [
+                                    "font-family: pingfang sc;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "fontfamily_stheiti",
+                        "class_content": {
+                              "name": "fontfamily_stheiti",
+                              "value": [
+                                    "font-family: stheiti;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "letter_spacing_1",
+                        "class_content": {
+                              "name": "letter_spacing_1",
+                              "value": [
+                                    "letter-spacing: 1px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "letter_spacing_2",
+                        "class_content": {
+                              "name": "letter_spacing_2",
+                              "value": [
+                                    "letter-spacing: 2px;"
+                              ]
+                        }
+                  },
+                  {
+                        "class_name": "cursor_point",
+                        "class_content": {
+                              "name": "cursor_point",
+                              "value": [
+                                    "cursor: pointer;"
+                              ]
+                        }
+                  }
+            ]
+      }
+]
