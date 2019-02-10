@@ -236,22 +236,6 @@
       text-align: justify;
 }
 
-.text_last_center {
-      text-align: center;
-}
-
-.text_last_left {
-      text-align: left;
-}
-
-.text_last_right {
-      text-align: right;
-}
-
-.text_last_justify {
-      text-align: justify;
-}
-
 .absolute {
       position: absolute;
 }

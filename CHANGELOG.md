@@ -143,6 +143,10 @@
     * text_overflow_clip
     * text_overflow_ellipsis
     * webkit_box
+    * text_last_center
+    * text_last_left
+    * text_last_right
+    * text_last_justify
 
 * updated:
     * line_clamp_(x) to block css
