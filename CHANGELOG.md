@@ -112,4 +112,40 @@
     * transition reason: Low frequency of using
     * transform reason: Low frequency of using
     * shadow_* reason: Low frequency of using
+
+## [2.0.0] - 2018-2-10
+
+### update
+
+* npm published 2.0.0
+
+* added:
+    * m(x)_30
+    * p(x)_30
+    * fontsize_8
+    * fontsize_10
+    * fontsize_13
+    * fontsize_15
+    * letter_spacing_2
+    * outline_none
+    * transition_normal
+    * transition_slow
+    * transparent
+    * bg_transparent
+    * color_(000) - color_(fff)
+    * bg_color_(000) - bg_color_(fff)
+    * atom-miniapp.css
+    * atom-miniapp.min.css
+
+* deleted:
+    * space_nowrap
+    * space_normal
+    * text_overflow_clip
+    * text_overflow_ellipsis
+    * webkit_box
+
+* updated:
+    * line_clamp_(x) to block css
+    * color_(x) to color gradation
+
    

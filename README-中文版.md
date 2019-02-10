@@ -29,7 +29,7 @@ $ npm i @verticalv/atom.css --save
 举个栗子:
 
 ```html
-<div class="w_100vw h_100vh flex justify_center align_center bg_yellow color_333 font_bold font_64">
+<div class="flex justify_center align_center">
     Example
 </div>
 ```
