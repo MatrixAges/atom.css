@@ -145,31 +145,37 @@
 }
 
 .line_clamp_1 {
-      -webkit-line-clamp: 1;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
 }
 
 .line_clamp_2 {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
       -webkit-line-clamp: 2;
 }
 
 .line_clamp_3 {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
       -webkit-line-clamp: 3;
 }
 
 .line_clamp_4 {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
       -webkit-line-clamp: 4;
 }
 
 .line_clamp_5 {
-      -webkit-line-clamp: 5;
-}
-
-.box_horizontal {
-      -webkit-box-orient: horizontal;
-}
-
-.box_vertical {
+      display: -webkit-box;
       -webkit-box-orient: vertical;
+      overflow: hidden;
+      -webkit-line-clamp: 5;
 }
 
 /*====flex====*/
