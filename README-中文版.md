@@ -6,9 +6,9 @@
 _<p align="center">像风一样的男子一样快乐地写代码！只有CSS文件，不需要安装任何东西!</p>_
 
 <p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/join-welcome-brightgreen.svg" alt="attitude_img"></a>
-  <a href="#"><img src="https://img.shields.io/badge/version-1.0-orange.svg" alt="version_img"></a>
-  <a href="#"><img src="https://img.shields.io/badge/uncompres%20size-12k-red.svg" alt="size_img"></a>
+<a href="#"><img src="https://img.shields.io/badge/join-welcome-brightgreen.svg" alt="attitude_img"></a>
+  <a href="#"><img src="https://img.shields.io/badge/version-2.0-orange.svg" alt="version_img"></a>
+  <a href="#"><img src="https://img.shields.io/badge/compres%20size-10k-red.svg" alt="size_img"></a>
   <a href="#"><img src="https://img.shields.io/badge/style-fic%20design-yellow.svg" alt="style_img"></a>
   <a href="#"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
   <a href="#"><img src="https://img.shields.io/badge/update-weekly-lightgrey.svg" alt="Chat"></a>
@@ -42,7 +42,7 @@ $ npm i @verticalv/atom.css --save
 
 使用下面的`class`可以给元素加上各种属性：
 
-![classes](https://s1.ax1x.com/2018/12/09/FGtz1U.png)
+![classes](https://s2.ax1x.com/2019/02/12/kw5M0e.png)
 
 ## 可用性
 

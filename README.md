@@ -7,8 +7,8 @@ _<p align="center">A atom-style library of CSS atomic elements. To build app fas
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/join-welcome-brightgreen.svg" alt="attitude_img"></a>
-  <a href="#"><img src="https://img.shields.io/badge/version-1.0-orange.svg" alt="version_img"></a>
-  <a href="#"><img src="https://img.shields.io/badge/uncompres%20size-12k-red.svg" alt="size_img"></a>
+  <a href="#"><img src="https://img.shields.io/badge/version-2.0-orange.svg" alt="version_img"></a>
+  <a href="#"><img src="https://img.shields.io/badge/compres%20size-10k-red.svg" alt="size_img"></a>
   <a href="#"><img src="https://img.shields.io/badge/style-fic%20design-yellow.svg" alt="style_img"></a>
   <a href="#"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
   <a href="#"><img src="https://img.shields.io/badge/update-weekly-lightgrey.svg" alt="Chat"></a>
@@ -42,7 +42,7 @@ Output:
 
 To decorate an element, add the class like below to an element. 
 
-![classes](https://s1.ax1x.com/2018/12/09/FGtz1U.png)
+![classes](https://s2.ax1x.com/2019/02/12/kw5M0e.png)
 
 ## Accessibility
 
