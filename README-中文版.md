@@ -38,7 +38,7 @@ $ npm i @verticalv/atom.css --save
 
 ![atom.css eg](https://user-gold-cdn.xitu.io/2018/11/26/1675083438938377?w=933&h=394&f=png&s=6650)
 
-### 类
+## 类
 
 使用下面的`class`可以给元素加上各种属性：
 
