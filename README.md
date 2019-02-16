@@ -38,7 +38,7 @@ Output:
 
 ![atom.css eg](https://user-gold-cdn.xitu.io/2018/11/26/1675083438938377?w=933&h=394&f=png&s=6650)
 
-### Classes
+## Classes
 
 To decorate an element, add the class like below to an element. 
 
