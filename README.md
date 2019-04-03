@@ -11,7 +11,6 @@ _<p align="center">A atom-style library of CSS atomic elements. To build app fas
   <a href="#"><img src="https://img.shields.io/badge/compres%20size-10k-red.svg" alt="size_img"></a>
   <a href="#"><img src="https://img.shields.io/badge/style-fic%20design-yellow.svg" alt="style_img"></a>
   <a href="#"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
-  <a href="#"><img src="https://img.shields.io/badge/update-weekly-lightgrey.svg" alt="Chat"></a>
 </p>
 
 ## Installation
