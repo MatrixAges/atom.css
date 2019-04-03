@@ -6,8 +6,8 @@
 _<p align="center">A atom-style library of CSS atomic elements. To build app faster and more flexible!</p>_
 
 <p align="center">
-  [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
-  [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
+  <a href="https://996.icu"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996icu_img"></a>
+  <a href="https://github.com/996icu/996.ICU/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-Anti%20996-blue.svg" alt="996icu_img"></a>
   <a href="#"><img src="https://img.shields.io/badge/join-welcome-brightgreen.svg" alt="attitude_img"></a>
   <a href="#"><img src="https://img.shields.io/badge/version-2.0-orange.svg" alt="version_img"></a>
   <a href="#"><img src="https://img.shields.io/badge/compres%20size-10k-red.svg" alt="size_img"></a>
