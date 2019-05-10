@@ -19,7 +19,7 @@ _<p align="center">像风一样的男子一样快乐地写代码！只有CSS文�
 通过npm安装:
 
 ```bash
-$ npm i @verticalv/atom.css --save
+$ npm i @verts/atom.css --save
 ```
 
 ## 用法
