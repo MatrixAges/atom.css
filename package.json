@@ -1,6 +1,6 @@
 {
       "name": "@verts/atom.css",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "description": "A atom-style library of CSS atomic elements. To build app faster and more flexible.",
       "main": "none",
       "scripts": {
