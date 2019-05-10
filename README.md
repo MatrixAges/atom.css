@@ -20,7 +20,7 @@ _<p align="center">A atom-style library of CSS atomic elements. To build app fas
 Install via npm:
 
 ```bash
-$ npm i @verticalv/atom.css --save
+$ npm i @verts/atom.css --save
 ```
 
 ## Usage
