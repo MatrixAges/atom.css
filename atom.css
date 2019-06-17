@@ -369,6 +369,10 @@
       transition: all ease 0.8s;
 }
 
+.disabled{
+      pointer-events: none;
+}
+
 /*====display====*/
 
 /*====interval====*/
