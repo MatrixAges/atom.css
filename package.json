@@ -1,5 +1,5 @@
 {
-      "name": "@verts/atom.css",
+      "name": "@matrixage/atom.css",
       "version": "2.0.1",
       "description": "A atom-style library of CSS atomic elements. To build app faster and more flexible.",
       "main": "none",
@@ -20,7 +20,7 @@
             "vue",
             "angular"
       ],
-      "author": "V",
+      "author": "matrixage",
       "license": "MIT",
       "bugs": {
             "url": "https://github.com/isVertical/atom.css/issues"

@@ -18,7 +18,7 @@ _<p align="center">A atom-style library of CSS atomic elements. To build app fas
 Install via npm:
 
 ```bash
-$ npm i @verts/atom.css --save
+$ npm i @matrixage/atom.css
 ```
 
 ## Usage
