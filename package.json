@@ -8,7 +8,7 @@
       },
       "repository": {
             "type": "git",
-            "url": "git+https://github.com/isVertical/atom.css.git"
+            "url": "git+https://github.com/MatrixAges/atom.css.git"
       },
       "keywords": [
             "css",
@@ -23,7 +23,7 @@
       "author": "matrixage",
       "license": "MIT",
       "bugs": {
-            "url": "https://github.com/isVertical/atom.css/issues"
+            "url": "https://github.com/MatrixAges/atom.css/issues"
       },
-      "homepage": "https://github.com/isVertical/atom.css#readme"
+      "homepage": "https://github.com/MatrixAges/atom.css#readme"
 }
